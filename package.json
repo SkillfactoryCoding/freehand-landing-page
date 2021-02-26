@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Freehand landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/scss/style.scss src/css/style.css",
+    "sass-watch": "sass --watch src/scss/style.scss:src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytokarevskaya/freehand-landing-page.git"
+  },
+  "author": "ytokarevskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ytokarevskaya/freehand-landing-page/issues"
+  },
+  "homepage": "https://github.com/ytokarevskaya/freehand-landing-page#readme"
+}

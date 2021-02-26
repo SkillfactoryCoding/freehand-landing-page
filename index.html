@@ -7,140 +7,150 @@
 		<title>Freehand Landing page</title>
 	</head>
 	<body>
-        <header>
-            <a href=""><img src="src/img/logo.svg" alt="Freehand logo" /></a>
-            <nav>
-                <a href="">Home</a>
-                <a href="">Portfolio</a>
-                <a href="">Pages</a>
-                <a href="">Blog</a>
-            </nav>
-            <div>
-                <button>Sign In</button>
-                <button>Login</button>
+        <header class="header">
+            <div class="container">
+                <div class="header__frame">
+                    <a href=""><img class="header__logo" src="src/img/logo.svg" alt="Freehand logo" /></a>
+                    <nav class="header__menu">
+                        <a class="header__menu-item" href="">Home</a>
+                        <a class="header__menu-item" href="">Portfolio</a>
+                        <a class="header__menu-item" href="">Pages</a>
+                        <a class="header__menu-item" href="">Blog</a>
+                    </nav>
+                    <div class="header__buttons">
+                        <button class="header__buttons-item button">Sign In</button>
+                        <button class="header__buttons-item button">Login</button>
+                    </div>
+                </div>
             </div>
         </header>
         <main>
-            <section>
-                <div>
-                    <h1>Freehand your brand with a beautiful website</h1>
+            <div class="container">
+                <section class="section__main">
+                    <div class="section__main-left">
+                        <h1>Freehand your brand with a beautiful website</h1>
+                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                        <div class="section__main-buttons">
+                            <button class="section__main-item">View Projects</button>
+                            <button class="section__main-item">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="section__main-right"></div>
+                </section>
+                <section class="section__services">
+                    <p class="section__subtitle">OUR SERVICES</p>
+                    <h2>We build experience</h2>
                     <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                    <button>View Projects</button>
-                    <button>Learn More</button>
-                </div>
-                <div></div>
-            </section>
-            <section>
-                <p>OUR SERVICES</p>
-                <h2>We build experience</h2>
-                <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                <div>
-                    <div>
-                        <img src="src/img/services-icon-1.svg" alt="Design" />
-                        <h3>Design</h3>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                        <a href="" >Learn more</a>
+                    <div class="section__services-blocks">
+                        <div class="section__services-blocks-item">
+                            <img class="section__services-blocks-img" src="src/img/services-icon-1.svg" alt="Design" />
+                            <h3 class="section__h3">Design</h3>
+                            <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                            <a class="section__services-blocks-link" href="" >Learn more</a>
+                        </div>
+                        <div class="section__services-blocks-item">
+                            <img class="section__services-blocks-img" src="src/img/services-icon-2.svg" alt="Ecommerce" />
+                            <h3 class="section__h3">Ecommerce</h3>
+                            <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                            <a class="section__services-blocks-link" href="" >Learn more</a>
+                        </div>
+                        <div class="section__services-blocks-item">
+                            <img class="section__services-blocks-img" src="src/img/services-icon-3.svg" alt="Application" />
+                            <h3 class="section__h3">Application</h3>
+                            <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                            <a class="section__services-blocks-link" href="" >Learn more</a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="src/img/services-icon-2.svg" alt="Ecommerce" />
-                        <h3>Ecommerce</h3>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                        <a href="" >Learn more</a>
+                </section>
+                <section class="section__features">
+                    <p class="section__subtitle">OUR TIPS FOR YOU</p>
+                    <h2>Important features</h2>
+                    <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                    <div class="section__features-banners">
+                        <a class="section__features-banners-img n1" href=""><span>120 million curious readers and growing.</span></a>
+                        <a class="section__features-banners-img n2" href=""><span>Expand your reading. <br/>Expand your mind.</span></a>
                     </div>
-                    <div>
-                        <img src="src/img/services-icon-3.svg" alt="Application" />
-                        <h3>Application</h3>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                        <a href="" >Learn more</a>
+                </section>
+                <section class="section__price">
+                    <h2>Choose the plan that’s right for your business</h2>
+                    <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
+                    <div class="section__price-plans">
+                        <div class="section__price-plans-item">
+                            <h3 class="section__h3">Starter plan</h3>
+                            <p class="section__price-plans-price"><strong>Free</strong></p>
+                            <p class="section__price-plans-per-month">per month</p>
+                            <p class="section__price-plans-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+                            <a href="">Get Started</a>
+                        </div>
+                        <div class="section__price-plans-item">
+                            <h3 class="section__h3">Basic plan</h3>
+                            <p class="section__price-plans-price"><strong>$20.00</strong></p>
+                            <p class="section__price-plans-per-month">per month</p>
+                            <p class="section__price-plans-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+                            <a class="" href="">Get Started</a>
+                        </div>
+                        <div class="section__price-plans-item">
+                            <h3 class="section__h3">Enterprise plann</h3>
+                            <p class="section__price-plans-price"><strong>$50.00</strong></p>
+                            <p class="section__price-plans-per-month">per month</p>
+                            <p class="section__price-plans-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+                            <a class="" href="">Get Started</a>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <p>OUR TIPS FOR YOU</p>
-                <h2>Important features</h2>
-                <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                <div>
-                    <a href=""><span>120 million curious readers and growing.</span></a>
-                    <a href=""><span>Expand your reading. <br/>Expand your mind.</span></a>
-                </div>
-            </section>
-            <section>
-                <h2>Choose the plan that’s right for your business</h2>
-                <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .</p>
-                <div>
-                    <div>
-                        <h3>Starter plan</h3>
-                        <p><strong>Free</strong></p>
-                        <p>per month</p>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
-                        <a href="">Get Started</a>
+                </section>
+                <section class="section__demo">
+                    <div class="section__demo-banner">
+                        <h2 class="section__demo-title">Get started today and try 30 days free</h2>
+                        <p class="section__demo-paragraph">No contact, no set-up costs, just awesome way to organise your money.</p>
+                        <div class="section__demo-buttons">
+                            <a href="">Try it for free</a>
+                            <a href="">Watch Demo</a>
+                        </div>
                     </div>
-                    <div>
-                        <h3>Basic plan</h3>
-                        <p><strong>$20.00</strong></p>
-                        <p>per month</p>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
-                        <a href="">Get Started</a>
-                    </div>
-                    <div>
-                        <h3>Enterprise plann</h3>
-                        <p><strong>$50.00</strong></p>
-                        <p>per month</p>
-                        <p>Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
-                        <a href="">Get Started</a>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h2>Get started today and try 30 days free</h2>
-                    <p>No contact, no set-up costs, just awesome way to organise your money.</p>
-                    <div>
-                        <a href="">Try it for free</a>
-                        <a href="">Watch Demo</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <div>
-                    <a href=""><img src="src/img/logo.svg" alt="Freehand logo" /></a>
-                    <p>We're brand strategy and digital design agency, building brands that matter in culture.</p>
-                    <div>
-                        <a href="" target="_blank" rel="nofollow"><img src="src/img/instagram.svg" alt=""/></a>
-                        <a href="" target="_blank" rel="nofollow"><img src="src/img/fb.svg" alt=""/></a>
-                        <a href="" target="_blank" rel="nofollow"><img src="src/img/github.svg" alt=""/></a>
-                        <a href="" target="_blank" rel="nofollow"><img src="src/img/dribble.svg" alt=""/></a>
-                        <a href="" target="_blank" rel="nofollow"><img src="src/img/twitter.svg" alt=""/></a>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h3>Services</h3>
-                        <p><a href="">Blog</a></p>
-                        <p><a href="">Partner with freehand</a></p>
-                        <p><a href="">Apps & Plugins</a></p>
-                        <p><a href="">FAQ</a></p>
-                        <p><a href="">UI Kit</a></p>
-                    </div>
-                    <div>
-                        <h3>Company</h3>
-                        <p><a href="">About</a></p>
-                        <p><a href="">Terms</a></p>
-                        <p><a href="">Privacy Policy</a></p>
-                        <p><a href="">Careers</a></p>
-                    </div>
-                    <div>
-                        <h3>Contact us</h3>
-                        <p>We’re Always Happy to Help</p>
-                        <p><a href="mailto:mail@freehand.io">mail@freehand.io</a></p>
-                        <!--<p><a href="tel:+79998886655">+79998886655</a></p>-->
-                    </div>
-                </div>
+                </section>
             </div>
-            <div>
-                <p>Copyright © 2020. Crafted with love.</p>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__main">
+                    <div class="footer__main-left">
+                        <a class="footer__main-logo" href=""><img src="src/img/logo.svg" alt="Freehand logo" /></a>
+                        <p class="footer__main-paragraph">We're brand strategy and digital design agency, building brands that matter in culture.</p>
+                        <div class="footer__main-socials">
+                            <a href="" target="_blank" rel="nofollow"><img class="footer__main-socials-img" src="src/img/instagram.svg" alt=""/></a>
+                            <a href="" target="_blank" rel="nofollow"><img class="footer__main-socials-img" src="src/img/fb.svg" alt=""/></a>
+                            <a href="" target="_blank" rel="nofollow"><img class="footer__main-socials-img" src="src/img/github.svg" alt=""/></a>
+                            <a href="" target="_blank" rel="nofollow"><img class="footer__main-socials-img" src="src/img/dribble.svg" alt=""/></a>
+                            <a href="" target="_blank" rel="nofollow"><img class="footer__main-socials-img" src="src/img/twitter.svg" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="footer__main-right">
+                        <div class="footer__main-col">
+                            <h3 class="footer__main-col-title">Services</h3>
+                            <p><a href="" class="footer__main-link">Blog</a></p>
+                            <p><a href="" class="footer__main-link">Partner with freehand</a></p>
+                            <p><a href="" class="footer__main-link">Apps & Plugins</a></p>
+                            <p><a href="" class="footer__main-link">FAQ</a></p>
+                            <p><a href="" class="footer__main-link">UI Kit</a></p>
+                        </div>
+                        <div class="footer__main-col">
+                            <h3 class="footer__main-col-title">Company</h3>
+                            <p><a href="" class="footer__main-link">About</a></p>
+                            <p><a href="" class="footer__main-link">Terms</a></p>
+                            <p><a href="" class="footer__main-link">Privacy Policy</a></p>
+                            <p><a href="" class="footer__main-link">Careers</a></p>
+                        </div>
+                        <div class="footer__main-col">
+                            <h3 class="footer__main-col-title">Contact us</h3>
+                            <p class="footer__main-email-title">We’re Always Happy to Help</p>
+                            <p><a href="mailto:mail@freehand.io" class="footer__main-email-link">mail@freehand.io</a></p>
+                            <!--<p><a href="tel:+79998886655">+79998886655</a></p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p>Copyright © 2020. Crafted with love.</p>
+                </div>
             </div>
         </footer>
 	</body>
